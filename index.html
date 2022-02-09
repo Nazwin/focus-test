@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Фокус.ua</title>
+
+	<!-- Fonts -->
+
+	<!-- Стилі -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+	
+	<header class="header">
+	<div class="header__wrapper">
+		<div class="header__left">
+			<button class="header__burger js-burger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+			<a href="index.html">
+				<img src="img/logo.png" alt="Focus" class="header__logo" height="30px" width="135px">
+			</a>
+		</div>
+		<div class="header__center">
+			<nav class="header__nav navigation">
+				<a href="#" class="navigation__item">Категории</a>
+				<a href="#" class="navigation__item">Спецтема</a>
+				<a href="#" class="navigation__item">Рейтинги</a>
+				<a href="#" class="navigation__item">Подписка</a>
+			</nav>
+		</div>
+		<div class="header__right">
+			<ul class="header__lang lang">
+				<li class="lang__item">
+					<a href="#" class="lang__link">ua</a>
+				</li>
+				<li class="lang__item active">
+					<a href="#" class="lang__link">ru</a>
+				</li>
+			</ul>
+			<button class="header__search js-search">
+				<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M19.7236 18.263L16.0223 14.5658C18.8541 11.0422 18.5809 5.83127 15.3516 2.63027C13.6624 0.942928 11.4019 0 8.99236 0C6.5828 0 4.34713 0.942928 2.63312 2.63027C0.943949 4.31762 0 6.57568 0 8.98263C0 11.3896 0.943949 13.6228 2.63312 15.335C4.32229 17.0223 6.5828 17.9653 8.99236 17.9653C11.0293 17.9653 13.0166 17.2705 14.6064 16.005L18.3076 19.7022C18.5064 19.9007 18.7548 20 19.0032 20C19.2764 20 19.5248 19.9007 19.6987 19.7022C20.0962 19.2804 20.0962 18.66 19.7236 18.263ZM15.9975 8.95782C15.9975 10.8189 15.2771 12.5806 13.9605 13.8958C12.644 15.2109 10.8803 15.9305 9.0172 15.9305C7.15414 15.9305 5.39045 15.2109 4.07389 13.8958C2.75733 12.5806 2.03694 10.8189 2.03694 8.95782C2.03694 7.09678 2.75733 5.33499 4.07389 4.01985C5.39045 2.70471 7.15414 1.98511 9.0172 1.98511C10.8803 1.98511 12.644 2.70471 13.9605 4.01985C15.2771 5.33499 15.9975 7.09678 15.9975 8.95782Z" fill="black"/>
+				</svg>
+			</button>
+		</div>
+	</div>
+	<div class="categories js-menu hidden">
+		<div class="categories__wrapper">
+			<ul class="categories__list list-cat">
+				<li class="list-cat__item">
+					<a href="#" class="list-cat__link">Авто</a>
+				</li>
+				<li class="list-cat__item">
+					<a href="#" class="list-cat__link">Стиль жизни</a>
+				</li>
+				<li class="list-cat__item">
+					<a href="#" class="list-cat__link">Военный фокус</a>
+				</li>
+				<li class="list-cat__item">
+					<a href="#" class="list-cat__link">Спорт</a>
+				</li>
+				<li class="list-cat__item">
+					<a href="#" class="list-cat__link">Культура</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</header>
+	
+
+	<section class="maim">
+		<div class="container">
+			<div class="main__wrapper gallery">
+				<div class="gallery__thumbs">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide slide-wrapper">
+							<img src="img/main-gallery/slide-01.jpg" alt="">
+							<div class="progress"></div>
+							<h3>Леди в законе. Особый статус для жены президетна</h3>
+						</div>
+						<div class="swiper-slide slide-wrapper">
+							<img src="img/main-gallery/slide-02.jpg" alt="">
+							<div class="progress"></div>
+							<h3>Взрыв на Позняках в Киеве</h3>
+						</div>
+						<div class="swiper-slide slide-wrapper">
+							<img src="img/main-gallery/slide-03.jpg" alt="">
+							<div class="progress"></div>
+							<h3>Потоп на западной Украине</h3>
+						</div>
+						<div class="swiper-slide slide-wrapper">
+							<img src="img/main-gallery/slide-04.jpg" alt="">
+							<div class="progress"></div>
+							<h3>Цифровая трансформация бизнеса Украины</h3>
+						</div>
+					</div>
+				</div>
+				<div class="gallery__view view-one">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide view-one__item">
+							<img src="img/main-gallery/slide-01.jpg" alt="">
+							<div class="view-one__content">
+								<div class="view-one__label label">Политика</div>
+								<a href="#"><h2 class="view-one__title">Леди в законе. Зачем Зеленскому понадобился особый статус для жены президента</h2></a>
+								<p class="view-one__info">Владимир Зеленский загорелся идеей разработки закона о первой леди. Для чего ему это понадобилось, и какие права и обязанности возлагаются на супругу главы государства в Украине </p>
+							</div>
+						</div>
+						<div class="swiper-slide view-one__item">
+							<img src="img/main-gallery/slide-02.jpg" alt="">
+							<div class="view-one__content">
+								<div class="view-one__label label">Политика</div>
+								<a href="#"><h2 class="view-one__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, delectus.</h2></a>
+								<p class="view-one__info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis hic, eveniet rem ad commodi, eligendi excepturi laudantium enim rerum quisquam.</p>
+							</div>
+						</div>
+						<div class="swiper-slide view-one__item">
+							<img src="img/main-gallery/slide-03.jpg" alt="">
+							<div class="view-one__content">
+								<div class="view-one__label label">Политика</div>
+								<a href="#"><h2 class="view-one__title">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Tempore, non.</h2></a>
+								<p class="view-one__info">Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Atque, provident, voluptatem facere laborum voluptate necessitatibus a laboriosam consectetur repellat, perferendis at iusto, quo. Consectetur, similique.</p>
+							</div>	
+						</div>
+						<div class="swiper-slide view-one__item">
+							<img src="img/main-gallery/slide-04.jpg" alt="">
+							<div class="view-one__content">
+								<div class="view-one__label label">Политика</div>
+								<a href="#"><h2 class="view-one__title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, fuga.</h2></a>
+								<p class="view-one__info">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Laborum debitis commodi quidem rem asperiores? Odio iusto esse autem velit aspernatur dolorem nulla!</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="row">
+		<div class="container">
+			<div class="row__wrapper">
+				<div class="row__news news">
+					<div class="news__item item-basic">
+						<div class="item-basic__wrapper">
+							<img src="img/second/01.jpg" alt="">
+							<div class="item-basic__label label">Украина</div>
+						</div>
+						<div class="item-basic__title">
+							<a href="#">Наказание карантином. Чем грозит Украине вторая волна борьбы с коронавирусом</a>
+						</div>
+						<div class="item-basic__time item-time">15:44</div>
+					</div>
+					<div class="news__item item-basic">
+						<div class="item-basic__wrapper">
+							<img src="img/second/02.jpg" alt="">
+							<div class="item-basic__label label">Технологии и наука</div>
+						</div>
+						<div class="item-basic__title">
+							<a href="#">Заговоренная связь. Все, что известно о 5G и его влиянии на здоровье</a>
+						</div>
+						<div class="item-basic__time item-time">15:44</div>
+					</div>
+					<div class="news__item item-basic item-cover banner">
+						<img src="img/second/03-cover.jpg" alt="" style="object-fit: contain; object-position: top;">
+						<div class="item-basic__wrapper">
+							<div class="item-basic__label label">рейтинг</div>
+							<span style="position: absolute;bottom: 0;margin-left: 15px;font-size: 100px;color: #fff;font-family: 'Cera Pro Bold';">100</span>
+						</div>
+						<div class="item-basic__title">
+							<a href="#">Из песни слов не выкинешь. Рейтинг Фокуса: 
+							самые успешные звезды шоу-бизнеса</a>
+						</div>
+					</div>
+					<div class="news__item item-basic">
+						<div class="item-basic__wrapper">
+							<img src="img/second/04.jpg" alt="">
+							<div class="item-basic__label label">Политика</div>
+						</div>
+						<div class="item-basic__title">
+							<a href="#">Дубы и сосны. В соцсетях обсуждают сексистский скандал в "Слуге народа"</a>
+						</div>
+						<div class="item-basic__time item-time">15:44</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="row">
+		<div class="container">
+			<div class="row__wrapper">
+				<div class="row__news news">
+					<div class="news__item item-basic item-cover">
+						<img src="img/second/05-cover.jpg" alt="">
+						<div class="item-basic__wrapper small">
+							<div class="item-basic__label label">Технологии и наука</div>
+						</div>
+						<div class="item-basic__title">
+							<a href="#">Заговоренная связь. Все, что известно о 5G и его влиянии на здоровье</a>
+						</div>
+						<div class="item-basic__time item-time">15:44</div>
+					</div>
+					<div class="news__item item-basic">
+						<div class="item-basic__wrapper small">
+							<img src="img/second/06.jpg" alt="">
+							<div class="item-basic__label label">Политика</div>
+						</div>
+						<div class="item-basic__title">
+							<a href="#">Кабмин назначил главой МОН Сергея Шкарлета в обход Рады</a>
+						</div>
+						<div class="item-basic__time item-time">15:44</div>
+					</div>
+					<div class="news__item item-basic">
+						<div class="item-basic__wrapper small">
+							<img src="img/second/07.jpg" alt="">
+							<div class="item-basic__label label">Технологии и наука</div>
+						</div>
+						<div class="item-basic__title">
+							<a href="#">Агент изменений. Денис Малюська — о частных СИЗО, продаже тюрем и будущем люстрации</a>
+						</div>
+						<div class="item-basic__time item-time">15:44</div>
+					</div>
+					<div class="news__item item-basic item-cover">
+						<img src="img/second/08-cover.jpg" alt="">
+						<div class="item-basic__wrapper small">
+							<div class="item-basic__label label">Политика</div>
+						</div>
+						<div class="item-basic__title">
+							<a href="#">Выход в люди. Как Шарий диктует информационную повестку дня в Украине</a>
+						</div>
+						<div class="item-basic__time item-time">15:44</div>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="special">
+		<div class="container">
+			<div class="special__wrapper">
+				<div class="special__column">
+					<h2 class="special__title">Потоп на западной Украине</h2>
+					<a href="#" class="special__link">смотреть все материалы</a>
+				</div>
+				<div class="special__column spec-posts">
+					<div class="spec-posts__wrapper">
+						<div class="spec-posts__item item-spec">
+							<a href="#" class="item-spec__link">Появилось видео затопленного Галича с воздуха</a>
+							<div class="item-spec__time">14:26</div>
+						</div>
+						<div class="spec-posts__item item-spec">
+							<a href="#" class="item-spec__link">Появилось видео затопленного Галича с воздуха</a>
+							<div class="item-spec__time">14:26</div>
+						</div>
+						<div class="spec-posts__item item-spec">
+							<a href="#" class="item-spec__link">Появилось видео затопленного Галича с воздуха</a>
+							<div class="item-spec__time">14:26</div>
+						</div>
+						<div class="spec-posts__item item-spec">
+							<a href="#" class="item-spec__link">Появилось видео затопленного Галича с воздуха</a>
+							<div class="item-spec__time">14:26</div>
+						</div>
+						<div class="spec-posts__item item-spec">
+							<a href="#" class="item-spec__link">Появилось видео затопленного Галича с воздуха</a>
+							<div class="item-spec__time">14:26</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="row">
+		<div class="container">
+			<div class="row__wrapper">
+				<div class="row__news">
+					<div class="nwes__item item-50">
+						<div class="item-50__wrapper">
+							<img src="img/second/09-cover.jpg" alt="">
+							<div class="item-50__title">
+								<a href="#">Как Юлия Тимошенко меня в Египет отправила</a>
+							</div> 
+							<div class="item-50__text">В середине нулевых Киев переживал немыслимый ипотечный бум. Банки выдавали кредиты на десять и двадцать лет.</div>
+							<div class="item-50__author">
+								<div class="item-50__name">Алексей Газубей</div>
+								<div class="item-50__post">Главный редактор focus.ua</div>
+							</div>
+						</div>
+					</div>
+					<div class="news__item item-basic">
+						<div class="item-basic__wrapper">
+							<img src="img/second/01.jpg" alt="">
+							<div class="item-basic__label label">Технологии и наука</div>
+						</div>
+						<div class="item-basic__title">
+							<a href="#">Счастье за 16 секунд. В чем секрет популярности TikTok и как соцсеть влияет на психику подростков</a>
+						</div>
+						<div class="item-basic__time item-time">15:44</div>
+					</div>
+					<div class="news__item opinion">
+						<div class="opinion__wrapper">
+							<div class="opinion__title">мнение</div>
+							<p class="opinion__quote">“Too much против
+								me too. Почему сексистские скандалы
+							в Украине ничем не заканчиваются”</p>
+							<div class="opinion__author author">
+								<div class="author__wrapper">
+									<img src="img/author.jpg" alt="">
+								</div>
+								<span class="author__name">Мария Бабенко</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="row">
+		<div class="container">
+			<div class="row__wrapper">
+				<div class="row__news news">
+					<div class="news__item item-basic">
+						<div class="item-basic__wrapper small">
+							<img src="img/second/11.jpg" alt="">
+							<div class="item-basic__label label">Технологии и наука</div>
+						</div>
+						<div class="item-basic__title">
+							<a href="#">Новая нефть. Как ученые ищут редкие элементы на дне океана, в космосе и мусоре</a>
+						</div>
+						<div class="item-basic__time item-time">15:44</div>
+					</div>
+					<div class="news__item item-basic">
+						<div class="item-basic__wrapper no-img">
+							<div class="item-basic__label label">Технологии и наука</div>
+						</div>
+						<div class="item-basic__title">
+							<a href="#">Обзор Юрия Володарского: 5 книг для тех, кто предпочитает "короткий метр" в литературе</a>
+						</div>
+						<div class="item-basic__text">Первый тест – по математике. Для его прохождения зарегистрировались 186 072 человека.</div>
+						<div class="item-basic__time item-time">15:44</div>
+					</div>
+					<div class="news__item">
+						<a href="#" class="item-basic__link">
+							<div class="item-basic__wrapper">
+								<img src="img/01.jpg" alt="">
+							</div>
+						</a>
+					</div>
+					<div class="news__item item-basic">
+						<div class="item-basic__wrapper small">
+							<img src="img/second/12.jpg" alt="">
+							<div class="item-basic__label label">Культура</div>
+						</div>
+						<div class="item-basic__title">
+							<a href="#">Обзор Юрия Володарского: 5 книг для тех, кто предпочитает "короткий метр" в литературе</a>
+						</div>
+						<div class="item-basic__time item-time">15:44</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="rating">
+		<div class="container">
+			<div class="rating__wrapper">
+				<div class="rating__title">
+					<h3 class="rating__header">Рейтинги</h3>
+				</div>
+				<div class="rating__gallery gallery-rt">
+					<!-- <div class="gallery-rt__wrapper">
+						<div class="gallery-rt__item item-rt">
+							<div class="item-rt__picture">
+								<img src="img/ratings/Rectangle-126.jpg" alt="" class="item-rt__img">
+							</div>
+							<div class="item-rt__title">Рейтинг</div>
+							<div class="item-rt__extra">100</div>
+							<div class="item-rt__text">Рейтинг 2019
+
+							Самые влиятельные украинцы</div>
+						</div>
+					</div> -->
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+	<div class="container">
+		<div class="footer__wrapper">
+			<div class="footer__row">
+				<div class="footer__column">
+					<img src="img/logo.png" alt="logo" class="footer__logo">
+				</div>
+				<div class="footer__column"></div>
+			</div>
+			<div class="footer__row">
+				<div class="footer__column">
+					<nav class="footer__nav nav-f">
+						<div class="nav-f__item">
+							<a href="#" class="nav-f__link">Политика</a>
+						</div>
+						<div class="nav-f__item">
+							<a href="#" class="nav-f__link">Украина</a>
+						</div>
+						<div class="nav-f__item">
+							<a href="#" class="nav-f__link">Экономика</a>
+						</div>
+						<div class="nav-f__item">
+							<a href="#" class="nav-f__link">Культура</a>
+						</div>
+						<div class="nav-f__item">
+							<a href="#" class="nav-f__link">Мнение</a>
+						</div>
+						<div class="nav-f__item">
+							<a href="#" class="nav-f__link">Рейтинги</a>
+						</div>
+						<div class="nav-f__item">
+							<a href="#" class="nav-f__link">Длинный фокус</a>
+						</div>
+						<div class="nav-f__item">
+							<a href="#" class="nav-f__link">Мир</a>
+						</div>
+					</nav>
+				</div>
+				<div class="footer__column">
+					<div class="footer__subscribe subscribe-f">
+						<div class="subscribe-f__images">
+							<img src="img/footer/mag-cover-01.jpg" alt="">
+							<img src="img/footer/mag-cover-02.jpg" alt="">
+							<img src="img/footer/mag-cover-03.jpg" alt="">
+						</div>
+						<div class="subscribe-f__body">
+							<p>Гарантировано получите скидку -10%</p>
+							<div>
+								<a href="#" class="subscribe-f__link">Подписаться</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__row">
+				<div class="footer__column">
+					<div class="footer__text">
+						<p>Все права на материалы, опубликованные на данном ресурсе, принадлежат ООО "ФОКУС МЕДИА". Какое-либо использование материалов без письменного разрешения ООО "ФОКУС МЕДИА" - запрещено. При использовании материалов с данного ресурса гиперссылка focus.ua обязательна.</p>
+						<p>Данный ресурс — для пользователей возрастом от 18 лет и старше.</p>
+					</div>
+				</div>
+				<div class="footer__column">
+					<div class="footer__text">
+						<p>Перепечатка, копирование или воспроизведение информации, содержащей ссылку на агентство ИнА "Українські Новини", в каком-либо виде строго запрещены.</p>
+						<p>Все материалы, которые размещены на этом сайте со ссылкой на агентство "Интерфакс-Украина", не подлежат дальнейшему воспроизведению и/или распространению в любой форме, кроме как с письменного разрешения агентства.</p>
+						<p>Материалы с плашками "Р", "Новости партнеров", "Новости компаний", "Новости партий", "Инновации", "Позиция", "Спецпроект при поддержке" публикуются на коммерческой основе.</p>
+					</div>
+				</div>
+			</div>
+			<div class="footer__row">
+				<div class="footer__column">
+					<span>© 2020 Фокус. Все права защищены.</span>
+				</div>
+				<div class="footer__column">
+					<a href="#">Політика конфіденційності</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.0.0/swiper-bundle.min.js"></script>
+	<script src="js/script.min.js"></script>
+</body>
+</html>
