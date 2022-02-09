@@ -304,6 +304,10 @@ section {
   right: 0;
 }
 
+.gallery {
+  overflow-x: hidden;
+}
+
 .gallery__view {
   margin-top: 25px;
 }
